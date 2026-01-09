@@ -1,3 +1,4 @@
 .env
 pageObject
 __pycache__
+.pytest_cache
