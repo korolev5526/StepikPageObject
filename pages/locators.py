@@ -7,3 +7,11 @@ class MainPageLocators():
 class LoginPageLocators():
   LOGIN_FORM = (By.CSS_SELECTOR, "#login_form")
   REGISTRATION_FORM = (By.CSS_SELECTOR, "#register_form")
+
+class ProductPageLocators():
+  ADD_TO_BUSKET_BTN = (By.CSS_SELECTOR, ".btn-add-to-basket")
+  PRODUCT_NAME = (By.CSS_SELECTOR, ".product_main h1")
+  ADDED_PRODUCT_NAME = (By.CSS_SELECTOR, "#messages .alert-success:nth-child(1) strong")
+  PRODUCT_PRICE = (By.CSS_SELECTOR, ".product_main .price_color")
+  PRODUCT_PRICE_IN_ALERT = (By.CSS_SELECTOR, ".alert-info strong")
+  BUSKET_ELEMENT_TEXT = (By.CSS_SELECTOR, "div.basket-mini.pull-right.hidden-xs")
